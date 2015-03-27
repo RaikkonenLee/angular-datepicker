@@ -9,8 +9,8 @@
 
 #### Development version 
 
-Checkout, run `grunt install` and `bower install`.
-To build run `gunt build`
+Checkout, run `npm install` and `bower install`.
+To build run `grunt build`
 
 ## Examples
 
@@ -44,6 +44,12 @@ To build run `gunt build`
 
 ```html
 <div date-picker="start" min-view="date"></div>
+```
+
+##### Close the picker when min-view is reached
+
+```html
+<div date-picker="start" auto-close="true"></div>
 ```
 
 ##### input as datepicker

@@ -1,5 +1,5 @@
-@import "mixins.less";
 @import "variables.less";
+@import "mixins.less";
 
 [date-picker-wrapper]{
   position: relative !important;
@@ -17,6 +17,8 @@
     .buttonBackground(@btnInfoBackground, spin(@btnInfoBackgroundHighlight, 20));
   }
 }
+
+[date-picker].hidden { display: none; }
 
 [date-picker] {
   .user-select(none);
